@@ -1,0 +1,566 @@
+Mon Jun 05 13:38:14 COT 2023
+MaxEnt version 3.4.4
+Checking header of D:\GBIF_Pheucticus aureoventris\CUT_VARIABLES_AMBIENTALES\cut_bio_13_Precipitation of Wettest Month.asc
+Checking header of D:\GBIF_Pheucticus aureoventris\CUT_VARIABLES_AMBIENTALES\cut_bio_14_Precipitation of Driest Month.asc
+Checking header of D:\GBIF_Pheucticus aureoventris\CUT_VARIABLES_AMBIENTALES\cut_bio_15_Precipitation Seasonality.asc
+Checking header of D:\GBIF_Pheucticus aureoventris\CUT_VARIABLES_AMBIENTALES\cut_bio_16_Precipitation of Wettest Quarter.asc
+Checking header of D:\GBIF_Pheucticus aureoventris\CUT_VARIABLES_AMBIENTALES\cut_bio_17_Precipitation of Driest Quarter.asc
+Checking header of D:\GBIF_Pheucticus aureoventris\CUT_VARIABLES_AMBIENTALES\cut_bio_18_Precipitation of Warmest Quarter.asc
+Checking header of D:\GBIF_Pheucticus aureoventris\CUT_VARIABLES_AMBIENTALES\cut_bio_19_Precipitation of Coldest Quarter.asc
+Checking header of D:\GBIF_Pheucticus aureoventris\CUT_VARIABLES_AMBIENTALES\cut_bio_1_Annual Mean Temperature.asc
+Checking header of D:\GBIF_Pheucticus aureoventris\CUT_VARIABLES_AMBIENTALES\cut_bio_2_Mean Diurnal Range.asc
+Checking header of D:\GBIF_Pheucticus aureoventris\CUT_VARIABLES_AMBIENTALES\cut_bio_5_Max Temperature of Warmest Month.asc
+Checking header of D:\GBIF_Pheucticus aureoventris\CUT_VARIABLES_AMBIENTALES\cut_bio_8_Mean Temperature of Wettest Quarter.asc
+Checking header of D:\GBIF_Pheucticus aureoventris\CUT_VARIABLES_AMBIENTALES\cut_bio_9_Mean Temperature of Driest Quarter.asc
+Reading samples from Database_principal_4.csv
+Read samples: max memory 259522560, total allocated 177577984, free 57448688, used 120129296, increment 20746672
+Warning: Sample at -78.609146, -1.160534E7 in Database_principal_4.csv is outside the bounding box of environmental data, skipping
+Warning: Sample at -78.41829, -1.412956E7 in Database_principal_4.csv is outside the bounding box of environmental data, skipping
+Warning: Sample at -78.41829, -1.412956E7 in Database_principal_4.csv is outside the bounding box of environmental data, skipping
+Warning: Sample at -78.70791, -1.299859E7 in Database_principal_4.csv is outside the bounding box of environmental data, skipping
+Warning: Sample at -78.7082, -1.29988E7 in Database_principal_4.csv is outside the bounding box of environmental data, skipping
+Warning: Sample at -78.59598, -1.213437E7 in Database_principal_4.csv is outside the bounding box of environmental data, skipping
+Warning: Sample at -78.43209, -1.345362E7 in Database_principal_4.csv is outside the bounding box of environmental data, skipping
+Warning: Sample at -78.41318, -1.413273E7 in Database_principal_4.csv is outside the bounding box of environmental data, skipping
+Warning: Sample at -78.46386, -1.664201E7 in Database_principal_4.csv is outside the bounding box of environmental data, skipping
+Warning: Sample at -78.50976, -1.295845E7 in Database_principal_4.csv is outside the bounding box of environmental data, skipping
+Warning: Sample at -78.591286, -1.037757E7 in Database_principal_4.csv is outside the bounding box of environmental data, skipping
+Warning: Sample at -78.591286, -1.037757E7 in Database_principal_4.csv is outside the bounding box of environmental data, skipping
+Warning: Sample at 0.0, 0.0 in Database_principal_4.csv is outside the bounding box of environmental data, skipping
+Warning: Extra fields in D:\GBIF_Pheucticus aureoventris\Database_principal_4.csv line 795: skipping... 
+Warning: Extra fields in D:\GBIF_Pheucticus aureoventris\Database_principal_4.csv line 796: skipping... 
+Warning: Extra fields in D:\GBIF_Pheucticus aureoventris\Database_principal_4.csv line 797: skipping... 
+Warning: Extra fields in D:\GBIF_Pheucticus aureoventris\Database_principal_4.csv line 798: skipping... 
+Warning: Extra fields in D:\GBIF_Pheucticus aureoventris\Database_principal_4.csv line 799: skipping... 
+Extractor: max memory 259522560, total allocated 177577984, free 97446008, used 80131976, increment -39997320
+Extracting random background and sample data
+11990 points with values for all grids
+Adding samples to background in feature space
+Command line used: 
+Command line to repeat: java density.MaxEnt nowarnings noprefixes responsecurves jackknife outputformat=logistic "outputdirectory=D:\GBIF_Pheucticus aureoventris\RESULTADOS_GENERADOS" "samplesfile=D:\GBIF_Pheucticus aureoventris\Database_principal_4.csv" "environmentallayers=D:\GBIF_Pheucticus aureoventris\CUT_VARIABLES_AMBIENTALES" -N cut_bio_10_Mean Temperature of Warmest Quarter -N cut_bio_11_Mean Temperature of Coldest Quarter -N cut_bio_12_Annual Precipitation -N cut_bio_3_Isothermality  -N cut_bio_4_Temperature Seasonality -N cut_bio_6_Min Temperature of Coldest Month -N cut_bio_7_Temperature Annual Range
+Species: Pheucticus_aureoventris
+Layers: cut_bio_13_Precipitation of Wettest Month cut_bio_14_Precipitation of Driest Month cut_bio_15_Precipitation Seasonality cut_bio_16_Precipitation of Wettest Quarter cut_bio_17_Precipitation of Driest Quarter cut_bio_18_Precipitation of Warmest Quarter cut_bio_19_Precipitation of Coldest Quarter cut_bio_1_Annual Mean Temperature cut_bio_2_Mean Diurnal Range cut_bio_5_Max Temperature of Warmest Month cut_bio_8_Mean Temperature of Wettest Quarter cut_bio_9_Mean Temperature of Driest Quarter
+Layertypes: Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous
+responsecurves: true
+jackknife: true
+outputformat: logistic
+outputdirectory: D:\GBIF_Pheucticus aureoventris\RESULTADOS_GENERADOS
+samplesfile: D:\GBIF_Pheucticus aureoventris\Database_principal_4.csv
+environmentallayers: D:\GBIF_Pheucticus aureoventris\CUT_VARIABLES_AMBIENTALES
+
+getSamples: max memory 259522560, total allocated 177577984, free 93323056, used 84254928, increment 4122952
+Making features
+makeFeatures: max memory 259522560, total allocated 177577984, free 85601976, used 91976008, increment 7721080
+Pheucticus_aureoventris: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+132 samples
+Density: max memory 259522560, total allocated 177577984, free 64302624, used 113275360, increment 21299352
+linearPredictor: max memory 259522560, total allocated 177577984, free 64222416, used 113355568, increment 80208
+FeaturedSpace: max memory 259522560, total allocated 177577984, free 64222416, used 113355568, increment 0
+Sequential: max memory 259522560, total allocated 177577984, free 63922528, used 113655456, increment 299888
+Initial loss: 9.212737496575905
+Time since start: 10.101
+500: time = 9,300000 loss = 7,167814
+Resulting gain: 2.044923773572612
+Projecting...
+Writing file D:\GBIF_Pheucticus aureoventris\RESULTADOS_GENERADOS\Pheucticus_aureoventris.asc
+Writing D:\GBIF_Pheucticus aureoventris\RESULTADOS_GENERADOS\plots\Pheucticus_aureoventris.png
+Pheucticus_aureoventris response curves
+Response curve: only cut_bio_13_Precipitation of Wettest Month
+Making features
+makeFeatures: max memory 259522560, total allocated 177577984, free 74090328, used 103487656, increment -10167800
+Pheucticus_aureoventris cut_bio_13_Precipitation of Wettest Month: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+132 samples
+Density: max memory 259522560, total allocated 177577984, free 73095776, used 104482208, increment 994552
+linearPredictor: max memory 259522560, total allocated 177577984, free 73095776, used 104482208, increment 0
+FeaturedSpace: max memory 259522560, total allocated 177577984, free 73095776, used 104482208, increment 0
+Sequential: max memory 259522560, total allocated 177577984, free 73095776, used 104482208, increment 0
+Initial loss: 9.212737496575905
+Time since start: 11.808
+500: time = 0,712000 loss = 7,977216
+Resulting gain: 1.2355212845773593
+Pheucticus_aureoventris response curves
+Response curve: only cut_bio_14_Precipitation of Driest Month
+Making features
+makeFeatures: max memory 259522560, total allocated 177577984, free 60370152, used 117207832, increment 12725624
+Pheucticus_aureoventris cut_bio_14_Precipitation of Driest Month: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+132 samples
+Density: max memory 259522560, total allocated 177577984, free 59303472, used 118274512, increment 1066680
+linearPredictor: max memory 259522560, total allocated 177577984, free 59303472, used 118274512, increment 0
+FeaturedSpace: max memory 259522560, total allocated 177577984, free 59303472, used 118274512, increment 0
+Sequential: max memory 259522560, total allocated 177577984, free 59303472, used 118274512, increment 0
+Initial loss: 9.212737496575905
+380: time = 0,502000 loss = 8,440194
+Resulting gain: 0.772543661184061
+Pheucticus_aureoventris response curves
+Response curve: only cut_bio_15_Precipitation Seasonality
+Making features
+makeFeatures: max memory 259522560, total allocated 177577984, free 76517648, used 101060336, increment -17214176
+Pheucticus_aureoventris cut_bio_15_Precipitation Seasonality: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+132 samples
+Density: max memory 259522560, total allocated 177577984, free 73151728, used 104426256, increment 3365920
+linearPredictor: max memory 259522560, total allocated 177577984, free 73151728, used 104426256, increment 0
+FeaturedSpace: max memory 259522560, total allocated 177577984, free 73151728, used 104426256, increment 0
+Sequential: max memory 259522560, total allocated 177577984, free 73151728, used 104426256, increment 0
+Initial loss: 9.212737496575905
+Time since start: 14.005
+380: time = 1,579000 loss = 8,647225
+Resulting gain: 0.5655122777090593
+Pheucticus_aureoventris response curves
+Response curve: only cut_bio_16_Precipitation of Wettest Quarter
+Making features
+makeFeatures: max memory 259522560, total allocated 177577984, free 37310504, used 140267480, increment 35841224
+Pheucticus_aureoventris cut_bio_16_Precipitation of Wettest Quarter: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+132 samples
+Density: max memory 259522560, total allocated 177577984, free 35295520, used 142282464, increment 2014984
+linearPredictor: max memory 259522560, total allocated 177577984, free 35295520, used 142282464, increment 0
+FeaturedSpace: max memory 259522560, total allocated 177577984, free 35295520, used 142282464, increment 0
+Sequential: max memory 259522560, total allocated 177577984, free 35295520, used 142282464, increment 0
+Initial loss: 9.212737496575905
+500: time = 0,907000 loss = 8,032754
+Resulting gain: 1.1799833425462598
+Pheucticus_aureoventris response curves
+Time since start: 15.018
+Response curve: only cut_bio_17_Precipitation of Driest Quarter
+Making features
+makeFeatures: max memory 259522560, total allocated 177577984, free 34229024, used 143348960, increment 1066496
+Pheucticus_aureoventris cut_bio_17_Precipitation of Driest Quarter: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+132 samples
+Density: max memory 259522560, total allocated 177577984, free 82317216, used 95260768, increment -48088192
+linearPredictor: max memory 259522560, total allocated 177577984, free 82317216, used 95260768, increment 0
+FeaturedSpace: max memory 259522560, total allocated 177577984, free 82317216, used 95260768, increment 0
+Sequential: max memory 259522560, total allocated 177577984, free 82317216, used 95260768, increment 0
+Initial loss: 9.212737496575905
+340: time = 0,528000 loss = 8,425535
+Resulting gain: 0.7872029662436173
+Pheucticus_aureoventris response curves
+Response curve: only cut_bio_18_Precipitation of Warmest Quarter
+Making features
+makeFeatures: max memory 259522560, total allocated 177577984, free 62291176, used 115286808, increment 20026040
+Pheucticus_aureoventris cut_bio_18_Precipitation of Warmest Quarter: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+132 samples
+Density: max memory 259522560, total allocated 177577984, free 61173152, used 116404832, increment 1118024
+linearPredictor: max memory 259522560, total allocated 177577984, free 61173152, used 116404832, increment 0
+FeaturedSpace: max memory 259522560, total allocated 177577984, free 61173152, used 116404832, increment 0
+Sequential: max memory 259522560, total allocated 177577984, free 61173152, used 116404832, increment 0
+Initial loss: 9.212737496575905
+Time since start: 16.54
+500: time = 0,920000 loss = 8,198785
+Resulting gain: 1.0139525282477955
+Pheucticus_aureoventris response curves
+Response curve: only cut_bio_19_Precipitation of Coldest Quarter
+Making features
+makeFeatures: max memory 259522560, total allocated 177577984, free 67314992, used 110262992, increment -6141840
+Pheucticus_aureoventris cut_bio_19_Precipitation of Coldest Quarter: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+132 samples
+Density: max memory 259522560, total allocated 177577984, free 66348520, used 111229464, increment 966472
+linearPredictor: max memory 259522560, total allocated 177577984, free 66268312, used 111309672, increment 80208
+FeaturedSpace: max memory 259522560, total allocated 177577984, free 66268312, used 111309672, increment 0
+Sequential: max memory 259522560, total allocated 177577984, free 66268312, used 111309672, increment 0
+Initial loss: 9.212737496575905
+500: time = 0,765000 loss = 8,555557
+Resulting gain: 0.6571802476525992
+Pheucticus_aureoventris response curves
+Response curve: only cut_bio_1_Annual Mean Temperature
+Making features
+makeFeatures: max memory 259522560, total allocated 177577984, free 79232864, used 98345120, increment -12964552
+Pheucticus_aureoventris cut_bio_1_Annual Mean Temperature: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+132 samples
+Density: max memory 259522560, total allocated 177577984, free 76265240, used 101312744, increment 2967624
+linearPredictor: max memory 259522560, total allocated 177577984, free 76265240, used 101312744, increment 0
+FeaturedSpace: max memory 259522560, total allocated 177577984, free 76265240, used 101312744, increment 0
+Sequential: max memory 259522560, total allocated 177577984, free 76265240, used 101312744, increment 0
+Initial loss: 9.212737496575905
+Time since start: 19.029
+420: time = 1,616000 loss = 8,031378
+Resulting gain: 1.181359209491534
+Pheucticus_aureoventris response curves
+Response curve: only cut_bio_2_Mean Diurnal Range
+Making features
+makeFeatures: max memory 259522560, total allocated 177577984, free 50160112, used 127417872, increment 26105128
+Pheucticus_aureoventris cut_bio_2_Mean Diurnal Range: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+132 samples
+Density: max memory 259522560, total allocated 177577984, free 47182960, used 130395024, increment 2977152
+linearPredictor: max memory 259522560, total allocated 177577984, free 47182960, used 130395024, increment 0
+FeaturedSpace: max memory 259522560, total allocated 177577984, free 47182960, used 130395024, increment 0
+Sequential: max memory 259522560, total allocated 177577984, free 47182960, used 130395024, increment 0
+Initial loss: 9.212737496575905
+260: time = 0,830000 loss = 8,418321
+Resulting gain: 0.7944168300267478
+Pheucticus_aureoventris response curves
+Response curve: only cut_bio_5_Max Temperature of Warmest Month
+Making features
+makeFeatures: max memory 259522560, total allocated 177577984, free 65045016, used 112532968, increment -17862056
+Pheucticus_aureoventris cut_bio_5_Max Temperature of Warmest Month: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+132 samples
+Density: max memory 259522560, total allocated 177577984, free 62950648, used 114627336, increment 2094368
+linearPredictor: max memory 259522560, total allocated 177577984, free 62950648, used 114627336, increment 0
+FeaturedSpace: max memory 259522560, total allocated 177577984, free 62950648, used 114627336, increment 0
+Sequential: max memory 259522560, total allocated 177577984, free 62950648, used 114627336, increment 0
+Initial loss: 9.212737496575905
+Time since start: 21.093
+440: time = 1,108000 loss = 8,059321
+Resulting gain: 1.1534166163117803
+Pheucticus_aureoventris response curves
+Response curve: only cut_bio_8_Mean Temperature of Wettest Quarter
+Making features
+makeFeatures: max memory 259522560, total allocated 177577984, free 73065744, used 104512240, increment -10115096
+Pheucticus_aureoventris cut_bio_8_Mean Temperature of Wettest Quarter: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+132 samples
+Density: max memory 259522560, total allocated 177577984, free 70728648, used 106849336, increment 2337096
+linearPredictor: max memory 259522560, total allocated 177577984, free 70728648, used 106849336, increment 0
+FeaturedSpace: max memory 259522560, total allocated 177577984, free 70728648, used 106849336, increment 0
+Sequential: max memory 259522560, total allocated 177577984, free 70728648, used 106849336, increment 0
+Initial loss: 9.212737496575905
+Time since start: 22.914
+500: time = 1,758000 loss = 8,028967
+Resulting gain: 1.18377039482756
+Pheucticus_aureoventris response curves
+Response curve: only cut_bio_9_Mean Temperature of Driest Quarter
+Making features
+makeFeatures: max memory 259522560, total allocated 177577984, free 36145256, used 141432728, increment 34583392
+Pheucticus_aureoventris cut_bio_9_Mean Temperature of Driest Quarter: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+132 samples
+Density: max memory 259522560, total allocated 177577984, free 81884112, used 95693872, increment -45738856
+linearPredictor: max memory 259522560, total allocated 177577984, free 81884112, used 95693872, increment 0
+FeaturedSpace: max memory 259522560, total allocated 177577984, free 81884112, used 95693872, increment 0
+Sequential: max memory 259522560, total allocated 177577984, free 81884112, used 95693872, increment 0
+Initial loss: 9.212737496575905
+Time since start: 24.651
+480: time = 1,670000 loss = 8,038052
+Resulting gain: 1.17468546502203
+Pheucticus_aureoventris response curves
+Time since start: 26.39
+Jackknife: leave cut_bio_13_Precipitation of Wettest Month out
+Making features
+makeFeatures: max memory 259522560, total allocated 177577984, free 32776992, used 144800992, increment 49107120
+Pheucticus_aureoventris cut_bio_13_Precipitation of Wettest Month: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+132 samples
+Density: max memory 259522560, total allocated 177577984, free 55369856, used 122208128, increment -22592864
+linearPredictor: max memory 259522560, total allocated 177577984, free 55369856, used 122208128, increment 0
+FeaturedSpace: max memory 259522560, total allocated 177577984, free 55369856, used 122208128, increment 0
+Sequential: max memory 259522560, total allocated 177577984, free 55369856, used 122208128, increment 0
+Initial loss: 9.212737496575905
+Time since start: 35.553
+500: time = 9,036000 loss = 7,176307
+Jackknife: leave cut_bio_14_Precipitation of Driest Month out
+Making features
+makeFeatures: max memory 259522560, total allocated 177577984, free 62246832, used 115331152, increment -6876976
+Pheucticus_aureoventris cut_bio_14_Precipitation of Driest Month: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+132 samples
+Density: max memory 259522560, total allocated 177577984, free 41853184, used 135724800, increment 20393648
+linearPredictor: max memory 259522560, total allocated 177577984, free 41772976, used 135805008, increment 80208
+FeaturedSpace: max memory 259522560, total allocated 177577984, free 41772976, used 135805008, increment 0
+Sequential: max memory 259522560, total allocated 177577984, free 41772976, used 135805008, increment 0
+Initial loss: 9.212737496575905
+Time since start: 44.895
+500: time = 9,232000 loss = 7,183042
+Jackknife: leave cut_bio_15_Precipitation Seasonality out
+Making features
+makeFeatures: max memory 259522560, total allocated 177577984, free 109556944, used 68021040, increment -67783968
+Pheucticus_aureoventris cut_bio_15_Precipitation Seasonality: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+132 samples
+Density: max memory 259522560, total allocated 177577984, free 91296960, used 86281024, increment 18259984
+linearPredictor: max memory 259522560, total allocated 177577984, free 91296960, used 86281024, increment 0
+FeaturedSpace: max memory 259522560, total allocated 177577984, free 91296960, used 86281024, increment 0
+Sequential: max memory 259522560, total allocated 177577984, free 91296960, used 86281024, increment 0
+Initial loss: 9.212737496575905
+Time since start: 52.733
+500: time = 7,722000 loss = 7,212128
+Jackknife: leave cut_bio_16_Precipitation of Wettest Quarter out
+Making features
+makeFeatures: max memory 259522560, total allocated 177577984, free 114904928, used 62673056, increment -23607968
+Pheucticus_aureoventris cut_bio_16_Precipitation of Wettest Quarter: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+132 samples
+Density: max memory 259522560, total allocated 177577984, free 94285320, used 83292664, increment 20619608
+linearPredictor: max memory 259522560, total allocated 177577984, free 94285320, used 83292664, increment 0
+FeaturedSpace: max memory 259522560, total allocated 177577984, free 94285320, used 83292664, increment 0
+Sequential: max memory 259522560, total allocated 177577984, free 94285320, used 83292664, increment 0
+Initial loss: 9.212737496575905
+Time since start: 62.022
+500: time = 9,161000 loss = 7,173945
+Jackknife: leave cut_bio_17_Precipitation of Driest Quarter out
+Making features
+makeFeatures: max memory 259522560, total allocated 177577984, free 88406160, used 89171824, increment 5879160
+Pheucticus_aureoventris cut_bio_17_Precipitation of Driest Quarter: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+132 samples
+Density: max memory 259522560, total allocated 177577984, free 67949464, used 109628520, increment 20456696
+linearPredictor: max memory 259522560, total allocated 177577984, free 67949464, used 109628520, increment 0
+FeaturedSpace: max memory 259522560, total allocated 177577984, free 67949464, used 109628520, increment 0
+Sequential: max memory 259522560, total allocated 177577984, free 67949464, used 109628520, increment 0
+Initial loss: 9.212737496575905
+Time since start: 71.269
+500: time = 9,120000 loss = 7,168204
+Jackknife: leave cut_bio_18_Precipitation of Warmest Quarter out
+Making features
+makeFeatures: max memory 259522560, total allocated 177577984, free 63932240, used 113645744, increment 4017224
+Pheucticus_aureoventris cut_bio_18_Precipitation of Warmest Quarter: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+132 samples
+Density: max memory 259522560, total allocated 177577984, free 79036776, used 98541208, increment -15104536
+linearPredictor: max memory 259522560, total allocated 177577984, free 79036776, used 98541208, increment 0
+FeaturedSpace: max memory 259522560, total allocated 177577984, free 79036776, used 98541208, increment 0
+Sequential: max memory 259522560, total allocated 177577984, free 79036776, used 98541208, increment 0
+Initial loss: 9.212737496575905
+Time since start: 80.346
+500: time = 8,951000 loss = 7,183110
+Jackknife: leave cut_bio_19_Precipitation of Coldest Quarter out
+Making features
+makeFeatures: max memory 259522560, total allocated 177577984, free 73103776, used 104474208, increment 5933000
+Pheucticus_aureoventris cut_bio_19_Precipitation of Coldest Quarter: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+132 samples
+Density: max memory 259522560, total allocated 177577984, free 53177152, used 124400832, increment 19926624
+linearPredictor: max memory 259522560, total allocated 177577984, free 53177152, used 124400832, increment 0
+FeaturedSpace: max memory 259522560, total allocated 177577984, free 53177152, used 124400832, increment 0
+Sequential: max memory 259522560, total allocated 177577984, free 53177152, used 124400832, increment 0
+Initial loss: 9.212737496575905
+Time since start: 89.556
+500: time = 9,084000 loss = 7,175260
+Jackknife: leave cut_bio_1_Annual Mean Temperature out
+Making features
+makeFeatures: max memory 259522560, total allocated 177577984, free 37921008, used 139656976, increment 15256144
+Pheucticus_aureoventris cut_bio_1_Annual Mean Temperature: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+132 samples
+Density: max memory 259522560, total allocated 177577984, free 20149096, used 157428888, increment 17771912
+linearPredictor: max memory 259522560, total allocated 177577984, free 20068888, used 157509096, increment 80208
+FeaturedSpace: max memory 259522560, total allocated 177577984, free 20068888, used 157509096, increment 0
+Sequential: max memory 259522560, total allocated 177577984, free 20068888, used 157509096, increment 0
+Initial loss: 9.212737496575905
+Time since start: 97.779
+500: time = 8,102000 loss = 7,173433
+Jackknife: leave cut_bio_2_Mean Diurnal Range out
+Making features
+makeFeatures: max memory 259522560, total allocated 177577984, free 113882504, used 63695480, increment -93813616
+Pheucticus_aureoventris cut_bio_2_Mean Diurnal Range: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+132 samples
+Density: max memory 259522560, total allocated 177577984, free 94738552, used 82839432, increment 19143952
+linearPredictor: max memory 259522560, total allocated 177577984, free 94658344, used 82919640, increment 80208
+FeaturedSpace: max memory 259522560, total allocated 177577984, free 94658344, used 82919640, increment 0
+Sequential: max memory 259522560, total allocated 177577984, free 94658344, used 82919640, increment 0
+Initial loss: 9.212737496575905
+Time since start: 106.254
+500: time = 8,348000 loss = 7,180507
+Jackknife: leave cut_bio_5_Max Temperature of Warmest Month out
+Making features
+makeFeatures: max memory 259522560, total allocated 177577984, free 116192448, used 61385536, increment -21534104
+Pheucticus_aureoventris cut_bio_5_Max Temperature of Warmest Month: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+132 samples
+Density: max memory 259522560, total allocated 177577984, free 96298688, used 81279296, increment 19893760
+linearPredictor: max memory 259522560, total allocated 177577984, free 96298688, used 81279296, increment 0
+FeaturedSpace: max memory 259522560, total allocated 177577984, free 96298688, used 81279296, increment 0
+Sequential: max memory 259522560, total allocated 177577984, free 96298688, used 81279296, increment 0
+Initial loss: 9.212737496575905
+Time since start: 115.117
+500: time = 8,735000 loss = 7,176357
+Jackknife: leave cut_bio_8_Mean Temperature of Wettest Quarter out
+Making features
+makeFeatures: max memory 259522560, total allocated 177577984, free 71101440, used 106476544, increment 25197248
+Pheucticus_aureoventris cut_bio_8_Mean Temperature of Wettest Quarter: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+132 samples
+Density: max memory 259522560, total allocated 177577984, free 90619640, used 86958344, increment -19518200
+linearPredictor: max memory 259522560, total allocated 177577984, free 90619640, used 86958344, increment 0
+FeaturedSpace: max memory 259522560, total allocated 177577984, free 90619640, used 86958344, increment 0
+Sequential: max memory 259522560, total allocated 177577984, free 90619640, used 86958344, increment 0
+Initial loss: 9.212737496575905
+Time since start: 123.403
+500: time = 8,171000 loss = 7,174485
+Jackknife: leave cut_bio_9_Mean Temperature of Driest Quarter out
+Making features
+makeFeatures: max memory 259522560, total allocated 177577984, free 76673632, used 100904352, increment 13946008
+Pheucticus_aureoventris cut_bio_9_Mean Temperature of Driest Quarter: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+132 samples
+Density: max memory 259522560, total allocated 177577984, free 58313416, used 119264568, increment 18360216
+linearPredictor: max memory 259522560, total allocated 177577984, free 58233208, used 119344776, increment 80208
+FeaturedSpace: max memory 259522560, total allocated 177577984, free 58233208, used 119344776, increment 0
+Sequential: max memory 259522560, total allocated 177577984, free 58233208, used 119344776, increment 0
+Initial loss: 9.212737496575905
+Time since start: 131.612
+500: time = 8,091000 loss = 7,173993
+Jackknife: only cut_bio_13_Precipitation of Wettest Month
+Making features
+makeFeatures: max memory 259522560, total allocated 177577984, free 67295056, used 110282928, increment -9061848
+Pheucticus_aureoventris cut_bio_13_Precipitation of Wettest Month: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+132 samples
+Density: max memory 259522560, total allocated 177577984, free 66175392, used 111402592, increment 1119664
+linearPredictor: max memory 259522560, total allocated 177577984, free 66175392, used 111402592, increment 0
+FeaturedSpace: max memory 259522560, total allocated 177577984, free 66175392, used 111402592, increment 0
+Sequential: max memory 259522560, total allocated 177577984, free 66175392, used 111402592, increment 0
+Initial loss: 9.212737496575905
+500: time = 0,728000 loss = 7,977216
+Res.gain: 1.2355212845773593
+Jackknife: only cut_bio_14_Precipitation of Driest Month
+Making features
+makeFeatures: max memory 259522560, total allocated 177577984, free 56604888, used 120973096, increment 9570504
+Pheucticus_aureoventris cut_bio_14_Precipitation of Driest Month: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+132 samples
+Density: max memory 259522560, total allocated 177577984, free 55555880, used 122022104, increment 1049008
+linearPredictor: max memory 259522560, total allocated 177577984, free 55555880, used 122022104, increment 0
+FeaturedSpace: max memory 259522560, total allocated 177577984, free 55555880, used 122022104, increment 0
+Sequential: max memory 259522560, total allocated 177577984, free 55555880, used 122022104, increment 0
+Initial loss: 9.212737496575905
+Time since start: 132.893
+380: time = 0,521000 loss = 8,440194
+Res.gain: 0.772543661184061
+Jackknife: only cut_bio_15_Precipitation Seasonality
+Making features
+makeFeatures: max memory 259522560, total allocated 177577984, free 77086424, used 100491560, increment -21530544
+Pheucticus_aureoventris cut_bio_15_Precipitation Seasonality: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+132 samples
+Density: max memory 259522560, total allocated 177577984, free 73690216, used 103887768, increment 3396208
+linearPredictor: max memory 259522560, total allocated 177577984, free 73690216, used 103887768, increment 0
+FeaturedSpace: max memory 259522560, total allocated 177577984, free 73690216, used 103887768, increment 0
+Sequential: max memory 259522560, total allocated 177577984, free 73690216, used 103887768, increment 0
+Initial loss: 9.212737496575905
+Time since start: 134.497
+380: time = 1,588000 loss = 8,647225
+Res.gain: 0.5655122777090593
+Jackknife: only cut_bio_16_Precipitation of Wettest Quarter
+Making features
+makeFeatures: max memory 259522560, total allocated 177577984, free 41239632, used 136338352, increment 32450584
+Pheucticus_aureoventris cut_bio_16_Precipitation of Wettest Quarter: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+132 samples
+Density: max memory 259522560, total allocated 177577984, free 40243064, used 137334920, increment 996568
+linearPredictor: max memory 259522560, total allocated 177577984, free 39261704, used 138316280, increment 981360
+FeaturedSpace: max memory 259522560, total allocated 177577984, free 39261704, used 138316280, increment 0
+Sequential: max memory 259522560, total allocated 177577984, free 39261704, used 138316280, increment 0
+Initial loss: 9.212737496575905
+500: time = 0,931000 loss = 8,032754
+Res.gain: 1.1799833425462598
+Jackknife: only cut_bio_17_Precipitation of Driest Quarter
+Making features
+makeFeatures: max memory 259522560, total allocated 177577984, free 43138928, used 134439056, increment -3877224
+Pheucticus_aureoventris cut_bio_17_Precipitation of Driest Quarter: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+132 samples
+Density: max memory 259522560, total allocated 177577984, free 41180080, used 136397904, increment 1958848
+linearPredictor: max memory 259522560, total allocated 177577984, free 41180080, used 136397904, increment 0
+FeaturedSpace: max memory 259522560, total allocated 177577984, free 41180080, used 136397904, increment 0
+Sequential: max memory 259522560, total allocated 177577984, free 41180080, used 136397904, increment 0
+Initial loss: 9.212737496575905
+Time since start: 135.988
+340: time = 0,538000 loss = 8,425535
+Res.gain: 0.7872029662436173
+Jackknife: only cut_bio_18_Precipitation of Warmest Quarter
+Making features
+makeFeatures: max memory 259522560, total allocated 177577984, free 73414080, used 104163904, increment -32234000
+Pheucticus_aureoventris cut_bio_18_Precipitation of Warmest Quarter: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+132 samples
+Density: max memory 259522560, total allocated 177577984, free 72414752, used 105163232, increment 999328
+linearPredictor: max memory 259522560, total allocated 177577984, free 72414752, used 105163232, increment 0
+FeaturedSpace: max memory 259522560, total allocated 177577984, free 72414752, used 105163232, increment 0
+Sequential: max memory 259522560, total allocated 177577984, free 72414752, used 105163232, increment 0
+Initial loss: 9.212737496575905
+500: time = 0,936000 loss = 8,198785
+Res.gain: 1.0139525282477955
+Jackknife: only cut_bio_19_Precipitation of Coldest Quarter
+Making features
+makeFeatures: max memory 259522560, total allocated 177577984, free 82186744, used 95391240, increment -9771992
+Pheucticus_aureoventris cut_bio_19_Precipitation of Coldest Quarter: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+132 samples
+Density: max memory 259522560, total allocated 177577984, free 80213032, used 97364952, increment 1973712
+linearPredictor: max memory 259522560, total allocated 177577984, free 80213032, used 97364952, increment 0
+FeaturedSpace: max memory 259522560, total allocated 177577984, free 80213032, used 97364952, increment 0
+Sequential: max memory 259522560, total allocated 177577984, free 80213032, used 97364952, increment 0
+Initial loss: 9.212737496575905
+Time since start: 137.732
+500: time = 0,776000 loss = 8,555557
+Res.gain: 0.6571802476525992
+Jackknife: only cut_bio_1_Annual Mean Temperature
+Making features
+makeFeatures: max memory 259522560, total allocated 177577984, free 48559848, used 129018136, increment 31653184
+Pheucticus_aureoventris cut_bio_1_Annual Mean Temperature: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+132 samples
+Density: max memory 259522560, total allocated 177577984, free 45315200, used 132262784, increment 3244648
+linearPredictor: max memory 259522560, total allocated 177577984, free 45315200, used 132262784, increment 0
+FeaturedSpace: max memory 259522560, total allocated 177577984, free 45315200, used 132262784, increment 0
+Sequential: max memory 259522560, total allocated 177577984, free 45315200, used 132262784, increment 0
+Initial loss: 9.212737496575905
+Time since start: 139.365
+420: time = 1,622000 loss = 8,031378
+Res.gain: 1.181359209491534
+Jackknife: only cut_bio_2_Mean Diurnal Range
+Making features
+makeFeatures: max memory 259522560, total allocated 177577984, free 71718208, used 105859776, increment -26403008
+Pheucticus_aureoventris cut_bio_2_Mean Diurnal Range: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+132 samples
+Density: max memory 259522560, total allocated 177577984, free 69441240, used 108136744, increment 2276968
+linearPredictor: max memory 259522560, total allocated 177577984, free 69361032, used 108216952, increment 80208
+FeaturedSpace: max memory 259522560, total allocated 177577984, free 69361032, used 108216952, increment 0
+Sequential: max memory 259522560, total allocated 177577984, free 69361032, used 108216952, increment 0
+Initial loss: 9.212737496575905
+260: time = 0,844000 loss = 8,418321
+Res.gain: 0.7944168300267478
+Jackknife: only cut_bio_5_Max Temperature of Warmest Month
+Making features
+makeFeatures: max memory 259522560, total allocated 177577984, free 40142392, used 137435592, increment 29218640
+Pheucticus_aureoventris cut_bio_5_Max Temperature of Warmest Month: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+132 samples
+Density: max memory 259522560, total allocated 177577984, free 38167464, used 139410520, increment 1974928
+linearPredictor: max memory 259522560, total allocated 177577984, free 38167464, used 139410520, increment 0
+FeaturedSpace: max memory 259522560, total allocated 177577984, free 38167464, used 139410520, increment 0
+Sequential: max memory 259522560, total allocated 177577984, free 38167464, used 139410520, increment 0
+Initial loss: 9.212737496575905
+Time since start: 141.262
+440: time = 1,033000 loss = 8,059321
+Res.gain: 1.1534166163117803
+Jackknife: only cut_bio_8_Mean Temperature of Wettest Quarter
+Making features
+makeFeatures: max memory 259522560, total allocated 177577984, free 51962848, used 125615136, increment -13795384
+Pheucticus_aureoventris cut_bio_8_Mean Temperature of Wettest Quarter: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+132 samples
+Density: max memory 259522560, total allocated 177577984, free 49726504, used 127851480, increment 2236344
+linearPredictor: max memory 259522560, total allocated 177577984, free 49726504, used 127851480, increment 0
+FeaturedSpace: max memory 259522560, total allocated 177577984, free 49726504, used 127851480, increment 0
+Sequential: max memory 259522560, total allocated 177577984, free 49726504, used 127851480, increment 0
+Initial loss: 9.212737496575905
+Time since start: 143.034
+500: time = 1,756000 loss = 8,028967
+Res.gain: 1.18377039482756
+Jackknife: only cut_bio_9_Mean Temperature of Driest Quarter
+Making features
+makeFeatures: max memory 259522560, total allocated 177577984, free 67537584, used 110040400, increment -17811080
+Pheucticus_aureoventris cut_bio_9_Mean Temperature of Driest Quarter: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+132 samples
+Density: max memory 259522560, total allocated 177577984, free 65223232, used 112354752, increment 2314352
+linearPredictor: max memory 259522560, total allocated 177577984, free 65223232, used 112354752, increment 0
+FeaturedSpace: max memory 259522560, total allocated 177577984, free 65223232, used 112354752, increment 0
+Sequential: max memory 259522560, total allocated 177577984, free 65223232, used 112354752, increment 0
+Initial loss: 9.212737496575905
+Time since start: 144.716
+480: time = 1,678000 loss = 8,038052
+Res.gain: 1.17468546502203
+Ending

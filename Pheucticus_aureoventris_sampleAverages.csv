@@ -1,0 +1,13 @@
+Predictor variable,Categorical,Sample average
+cut_bio_13_Precipitation of Wettest Month,false,132.87878787878788
+cut_bio_14_Precipitation of Driest Month,false,49.416666666666664
+cut_bio_15_Precipitation Seasonality,false,30.595345005844578
+cut_bio_16_Precipitation of Wettest Quarter,false,365.8333333333333
+cut_bio_17_Precipitation of Driest Quarter,false,169.7348484848485
+cut_bio_18_Precipitation of Warmest Quarter,false,261.9848484848485
+cut_bio_19_Precipitation of Coldest Quarter,false,246.36363636363637
+cut_bio_1_Annual Mean Temperature,false,12.139651562962117
+cut_bio_2_Mean Diurnal Range,false,10.707090919668024
+cut_bio_5_Max Temperature of Warmest Month,false,18.49587884093776
+cut_bio_8_Mean Temperature of Wettest Quarter,false,12.234722228890115
+cut_bio_9_Mean Temperature of Driest Quarter,false,11.87851007237579

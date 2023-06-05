@@ -1,0 +1,102 @@
+cut_bio_13_Precipitation of Wettest Month, 0.0, 40.0, 561.0
+cut_bio_14_Precipitation of Driest Month, 0.0, 0.0, 302.0
+cut_bio_15_Precipitation Seasonality, -8.734156437540907, 12.282440185546875, 194.0726318359375
+cut_bio_16_Precipitation of Wettest Quarter, 0.0, 108.0, 1542.0
+cut_bio_17_Precipitation of Driest Quarter, 0.0, 0.0, 955.0
+cut_bio_18_Precipitation of Warmest Quarter, 0.0, 16.0, 1542.0
+cut_bio_19_Precipitation of Coldest Quarter, 2.2076169182273198, 0.0, 1283.0
+cut_bio_1_Annual Mean Temperature, 0.0, -0.6514999866485596, 25.89583396911621
+cut_bio_2_Mean Diurnal Range, 0.4286936025703172, 6.914666652679443, 13.232333183288574
+cut_bio_5_Max Temperature of Warmest Month, 0.0, 5.315999984741211, 32.36800003051758
+cut_bio_8_Mean Temperature of Wettest Quarter, 0.0, -0.4440000057220459, 26.926000595092773
+cut_bio_9_Mean Temperature of Driest Quarter, 0.09971476887316529, -1.224666714668274, 26.27466583251953
+cut_bio_13_Precipitation of Wettest Month^2, 4.6627213084335795, 1600.0, 314721.0
+cut_bio_16_Precipitation of Wettest Quarter^2, 0.3425407642155565, 11664.0, 2377764.0
+cut_bio_1_Annual Mean Temperature^2, -0.48201913250764467, 0.01064336325513665, 670.594216956033
+cut_bio_8_Mean Temperature of Wettest Quarter^2, -3.224188729476373, 0.11334448912673967, 725.0095080469364
+cut_bio_13_Precipitation of Wettest Month*cut_bio_15_Precipitation Seasonality, 0.12598443949559054, 1190.7189903259277, 57653.215240478516
+cut_bio_13_Precipitation of Wettest Month*cut_bio_16_Precipitation of Wettest Quarter, 2.01173152080183, 4320.0, 865062.0
+cut_bio_13_Precipitation of Wettest Month*cut_bio_18_Precipitation of Warmest Quarter, 0.5920128125706476, 3232.0, 865062.0
+cut_bio_13_Precipitation of Wettest Month*cut_bio_1_Annual Mean Temperature, 0.31064079857899896, -65.80149865150452, 13470.689001083374
+cut_bio_13_Precipitation of Wettest Month*cut_bio_9_Mean Temperature of Driest Quarter, 0.046264893045736846, -123.69133818149567, 13000.104290008545
+cut_bio_14_Precipitation of Driest Month*cut_bio_8_Mean Temperature of Wettest Quarter, -0.30512567285094383, -10.656000137329102, 6373.986724853516
+cut_bio_15_Precipitation Seasonality*cut_bio_18_Precipitation of Warmest Quarter, 3.2661629048057894, 1679.936767578125, 150322.1163330078
+cut_bio_15_Precipitation Seasonality*cut_bio_2_Mean Diurnal Range, -0.2510768591141118, 122.06625517664179, 2326.4133217849303
+cut_bio_16_Precipitation of Wettest Quarter*cut_bio_18_Precipitation of Warmest Quarter, 0.15256698468930013, 8032.0, 2377764.0
+cut_bio_17_Precipitation of Driest Quarter*cut_bio_8_Mean Temperature of Wettest Quarter, -1.5521403542187122, -38.62800049781799, 20124.86018371582
+cut_bio_17_Precipitation of Driest Quarter*cut_bio_9_Mean Temperature of Driest Quarter, -0.06786273090752784, -106.54600417613983, 20573.583364486694
+cut_bio_18_Precipitation of Warmest Quarter*cut_bio_19_Precipitation of Coldest Quarter, -2.728578636620502, 0.0, 1273600.0
+cut_bio_18_Precipitation of Warmest Quarter*cut_bio_5_Max Temperature of Warmest Month, -0.3681497156275007, 386.4960021972656, 45724.58016395569
+cut_bio_19_Precipitation of Coldest Quarter*cut_bio_2_Mean Diurnal Range, 1.904188176379923, 0.0, 12174.084056854248
+cut_bio_19_Precipitation of Coldest Quarter*cut_bio_5_Max Temperature of Warmest Month, 0.019353248428938357, 0.0, 36489.59903335571
+cut_bio_1_Annual Mean Temperature*cut_bio_9_Mean Temperature of Driest Quarter, -0.4482222148873865, -0.04903854816355846, 674.4600501599816
+cut_bio_2_Mean Diurnal Range*cut_bio_9_Mean Temperature of Driest Quarter, 0.01940508822055804, -12.830833459226938, 297.3062263359934
+cut_bio_5_Max Temperature of Warmest Month*cut_bio_9_Mean Temperature of Driest Quarter, -0.004610749073993253, -6.510328236489613, 824.1837186363118
+cut_bio_8_Mean Temperature of Wettest Quarter*cut_bio_9_Mean Temperature of Driest Quarter, -0.26259822260458776, -0.16002888019110628, 674.3977151879881
+`cut_bio_13_Precipitation of Wettest Month, 0.29756751651262, 40.0, 129.5
+`cut_bio_13_Precipitation of Wettest Month, 0.3278017890590509, 40.0, 131.5
+`cut_bio_13_Precipitation of Wettest Month, 0.3028948413112243, 40.0, 132.5
+`cut_bio_13_Precipitation of Wettest Month, 1.896836881933063, 40.0, 130.5
+`cut_bio_16_Precipitation of Wettest Quarter, 0.5575294250136922, 108.0, 304.5
+`cut_bio_17_Precipitation of Driest Quarter, -0.3326240410918042, 0.0, 67.5
+'cut_bio_18_Precipitation of Warmest Quarter, 0.730598404541106, 1398.5, 1542.0
+'cut_bio_18_Precipitation of Warmest Quarter, 0.029241878557848416, 1380.0, 1542.0
+`cut_bio_15_Precipitation Seasonality, -0.3461699640389803, 12.282440185546875, 23.452556610107422
+'cut_bio_18_Precipitation of Warmest Quarter, 0.020403397377852538, 1369.5, 1542.0
+`cut_bio_2_Mean Diurnal Range, -0.3244641219391238, 6.914666652679443, 10.440833568572998
+`cut_bio_18_Precipitation of Warmest Quarter, 0.3958153309876198, 16.0, 326.5
+'cut_bio_9_Mean Temperature of Driest Quarter, -1.0945443467671792, 19.19499969482422, 26.27466583251953
+'cut_bio_18_Precipitation of Warmest Quarter, 0.012728943221269554, 1323.5, 1542.0
+'cut_bio_19_Precipitation of Coldest Quarter, -0.7718572081236512, 1151.5, 1283.0
+`cut_bio_15_Precipitation Seasonality, -0.9662867181480772, 12.282440185546875, 24.132243156433105
+`cut_bio_15_Precipitation Seasonality, 0.6756052696542988, 12.282440185546875, 16.322572708129883
+`cut_bio_15_Precipitation Seasonality, 0.31179610954137454, 12.282440185546875, 45.863956451416016
+`cut_bio_14_Precipitation of Driest Month, 0.8818290030439404, 0.0, 3.5
+'cut_bio_8_Mean Temperature of Wettest Quarter, -0.21163571641117412, 11.48466682434082, 26.926000595092773
+'cut_bio_5_Max Temperature of Warmest Month, -1.838485166888997, 23.042000770568848, 32.36800003051758
+`cut_bio_2_Mean Diurnal Range, -0.7412965624182145, 6.914666652679443, 10.316500186920166
+`cut_bio_9_Mean Temperature of Driest Quarter, -0.827608437533109, -1.224666714668274, 8.727999687194824
+`cut_bio_5_Max Temperature of Warmest Month, 0.5545852933858934, 5.315999984741211, 10.817999839782715
+`cut_bio_14_Precipitation of Driest Month, 1.0057145625900237, 0.0, 57.5
+`cut_bio_15_Precipitation Seasonality, 0.42692391903981486, 12.282440185546875, 45.82621955871582
+`cut_bio_14_Precipitation of Driest Month, 2.5718565434751963, 0.0, 58.5
+`cut_bio_18_Precipitation of Warmest Quarter, -1.2286751822629944, 16.0, 143.5
+`cut_bio_15_Precipitation Seasonality, 0.21643650730263714, 12.282440185546875, 45.80517387390137
+`cut_bio_15_Precipitation Seasonality, 0.3640140791089007, 12.282440185546875, 45.91025352478027
+`cut_bio_5_Max Temperature of Warmest Month, 0.7324288458542972, 5.315999984741211, 10.926000118255615
+`cut_bio_18_Precipitation of Warmest Quarter, 0.1970641309868163, 16.0, 375.5
+'cut_bio_5_Max Temperature of Warmest Month, -0.2440429485531543, 23.269999504089355, 32.36800003051758
+`cut_bio_2_Mean Diurnal Range, -0.3914493502008637, 6.914666652679443, 10.313166618347168
+'cut_bio_9_Mean Temperature of Driest Quarter, -0.43993152776338323, 19.15799903869629, 26.27466583251953
+`cut_bio_18_Precipitation of Warmest Quarter, 0.17005845668016403, 16.0, 378.5
+`cut_bio_18_Precipitation of Warmest Quarter, 0.10780977346383441, 16.0, 376.5
+`cut_bio_15_Precipitation Seasonality, -0.2530605058120633, 12.282440185546875, 24.494296073913574
+`cut_bio_15_Precipitation Seasonality, 0.02624282110443399, 12.282440185546875, 59.63282012939453
+`cut_bio_18_Precipitation of Warmest Quarter, 0.17267815742500292, 16.0, 382.5
+`cut_bio_15_Precipitation Seasonality, 0.033490485497158246, 12.282440185546875, 77.78921127319336
+'cut_bio_19_Precipitation of Coldest Quarter, -0.7602240809000262, 876.5, 1283.0
+`cut_bio_15_Precipitation Seasonality, 0.2845948353804055, 12.282440185546875, 77.93627166748047
+`cut_bio_15_Precipitation Seasonality, 0.4744336687474565, 12.282440185546875, 79.18465423583984
+`cut_bio_15_Precipitation Seasonality, 0.2058040524893455, 12.282440185546875, 78.83963394165039
+`cut_bio_15_Precipitation Seasonality, 0.26409123441656635, 12.282440185546875, 16.33372974395752
+`cut_bio_5_Max Temperature of Warmest Month, 0.4801696216547221, 5.315999984741211, 10.986000061035156
+`cut_bio_19_Precipitation of Coldest Quarter, 1.0784644891632322, 0.0, 26.5
+`cut_bio_19_Precipitation of Coldest Quarter, 0.2587595553549444, 0.0, 27.5
+`cut_bio_15_Precipitation Seasonality, -0.3645920392053428, 12.282440185546875, 24.639723777770996
+`cut_bio_15_Precipitation Seasonality, 0.05588181154122503, 12.282440185546875, 81.20984268188477
+`cut_bio_19_Precipitation of Coldest Quarter, 0.31164551743033797, 0.0, 25.5
+`cut_bio_18_Precipitation of Warmest Quarter, -0.2966244600985066, 16.0, 144.5
+`cut_bio_9_Mean Temperature of Driest Quarter, -0.15974199321321736, -1.224666714668274, 9.302666664123535
+`cut_bio_18_Precipitation of Warmest Quarter, 0.19904917797039232, 16.0, 385.5
+`cut_bio_13_Precipitation of Wettest Month, 0.18840802631233572, 40.0, 139.5
+'cut_bio_9_Mean Temperature of Driest Quarter, -0.23401703107274732, 18.99733257293701, 26.27466583251953
+'cut_bio_18_Precipitation of Warmest Quarter, 0.10569405133986597, 1415.5, 1542.0
+`cut_bio_9_Mean Temperature of Driest Quarter, -0.5598658439699653, -1.224666714668274, 9.349000453948975
+`cut_bio_18_Precipitation of Warmest Quarter, 0.04810223057264637, 16.0, 386.5
+`cut_bio_18_Precipitation of Warmest Quarter, 0.13907864011999022, 16.0, 383.5
+`cut_bio_18_Precipitation of Warmest Quarter, 0.1415381444900033, 16.0, 384.5
+`cut_bio_5_Max Temperature of Warmest Month, 0.11979324269559342, 5.315999984741211, 11.009999752044678
+linearPredictorNormalizer, 5.753369363042988
+densityNormalizer, 128.15123310057436
+numBackgroundPoints, 10024
+entropy, 7.189119880304932
